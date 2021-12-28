@@ -49,4 +49,3 @@ module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
   conn: sequelize, // para importart la conexión { conn } = require('./db.js');
 };
-postgres://nfpendxbeebrfl:26307d4becc50477a63fe11d08a78b478c5d1766fd7a3c1aa9e0e77c52b25954@ec2-52-72-252-211.compute-1.amazonaws.com:5432/dca0b2m8fe3vhs
